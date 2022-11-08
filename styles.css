@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+body aside+main{
+    height: 100vh;
+}
+aside{
+    flex: 2;
+    background: url("https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/WOPA160517_D056-resized.jpg?crop=864%2C0%2C1728%2C2304&wid=600&hei=800&scl=2.88");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+aside header{
+    background-color: black;
+    opacity: 0.5;
+    height: 140px;
+    position: relative;
+    top: 14%;
+}
+aside h1{
+    opacity: 1;
+    text-align: center;
+    position: relative;
+    color: white;
+    font-size: 250%;
+}
+main{
+    flex: 3;
+}
