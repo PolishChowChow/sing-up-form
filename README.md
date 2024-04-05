@@ -1,2 +1,2 @@
-# sing-up-form
-In this project i created simple sing up form. I hope you enjoy it.
+# About
+This project presents simple html for with javascript validation applied to it.
